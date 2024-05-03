@@ -3,4 +3,4 @@
 
 ## Demo
 ### Home
-![Gambar]https://github.com/ElsaAsdar/django-elsa/tree/main/ss%20blog
+![Gambar](https://github.com/ElsaAsdar/django-elsa/blob/main/ss blog/tampilan home.jpg)
