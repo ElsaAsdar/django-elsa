@@ -22,9 +22,9 @@ def product(request):
     pages = Page.objects.filter(is_published=True)
     return render(request, 'product.html', {'pages': pages})
 
-def blog(request, slug):
-    post = get_object_or_404(Blog, slug=slug, status=1)
-    return render(request, 'blog.html', {'post': post})
+def blog(request):
+    pages = Page.objects.filter(is_published=True)
+    return render(request, 'blog.html', {'pages': pages})
 
 def about(request):
     pages = Page.objects.filter(is_published=True)
