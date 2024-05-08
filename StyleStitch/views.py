@@ -26,6 +26,14 @@ def blog(request):
     pages = Page.objects.filter(is_published=True)
     return render(request, 'blog.html', {'pages': pages})
 
+def product_dress(request):
+    pages = Page.objects.filter(is_published=True)
+    return render(request, 'product_dress.html', {'pages': pages})
+
+def product_blous(request):
+    pages = Page.objects.filter(is_published=True)
+    return render(request, 'product_blous.html', {'pages': pages})
+
 def about(request):
     pages = Page.objects.filter(is_published=True)
     return render(request, 'about.html', {'pages': pages})
