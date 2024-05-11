@@ -34,6 +34,12 @@ def product_blous(request):
     pages = Page.objects.filter(is_published=True)
     return render(request, 'product_blous.html', {'pages': pages})
 
+def product_kemeja(request):
+    pages = Page.objects.filter(is_published=True)
+    return render(request, 'product_kemeja.html', {'pages': pages})
+
+
+
 def about(request):
     pages = Page.objects.filter(is_published=True)
     return render(request, 'about.html', {'pages': pages})

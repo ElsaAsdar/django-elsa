@@ -13,6 +13,7 @@ urlpatterns = [
     path('blog/', views.blog, name='blog'),
     path('product_dress/', views.product_dress, name='product_dress'),
     path('product_blous/', views.product_blous, name='product_blous'),
+     path('product_kemeja/', views.product_kemeja, name='product_kemeja'),
     path('about/', views.about, name='about'),
     
 ]
